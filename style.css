@@ -1,0 +1,86 @@
+/* //Testata della pagina dimensioni della colonna  */
+.width{
+    width: 0,100px,0,100px;
+}
+/* se do il text center al div a cui appartengono evito di scrivere text align center ai single element se li voglio tutti al centro */
+.h1style{
+    font-weight: 900;
+    font-size: xx-large;
+    
+    
+
+}
+.h4style{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: xx-large;
+    margin-top: 50px;
+    
+}
+.btnstyle{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-weight: 700;
+    border: 2px solid;
+    margin-top: 50px;
+}
+/* contenuto articoli */
+.articoli{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    border-radius: 50px;
+    border-color: brown;
+    border: 2px solid;
+}
+.profilepic{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 30px;
+    border: 2px solid;
+    margin-left: 30px;
+}
+.btntearticle{
+    width: 150px; 
+    height: 50px;
+    border-radius: 30px;
+    color: rgb(11, 7, 7);
+    background-color: brown;
+    font-weight: 800;
+    border: 2px solid;
+    margin-left: 70px;
+}
+
+/* //input type  for add contact */
+.addcontacts{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    justify-content: start;
+    background-color: white;
+    width: 300px;
+    height: 250px;
+    border-radius: 50px;
+    border-color: brown;
+    border: 2px solid;
+}
+/* button del input type nota: se faccio width : 150 px mi allarga il button  dalla parte destra o quella sinistra   */
+.btnbtnaddcontacts{
+    width: 150px; 
+    height: 50px;
+    border-radius: 30px;
+    color: rgb(11, 7, 7);
+    background-color: brown;
+    font-weight: 800;
+    border: 2px solid;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
